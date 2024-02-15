@@ -56,6 +56,7 @@ int main () {
 
     while (WindowShouldClose() == false){
         BeginDrawing();
+        
         ClearBackground(BLACK);
         DrawCircle(screenWidth/2,screenHeight/2,50, YELLOW);
         DrawCircle(yupiter.GetX(), yupiter.GetY(), yupiter.P_size, yupiter.P_color);
